@@ -1,0 +1,86 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.container .profile{
+    height: 400px;
+}
+
+header {
+    background-color: #006994;
+    color: white;
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.profile {
+    margin: 20px 0;
+}
+
+.profile-img {
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+}
+
+.profile p {
+    font-weight: 600;
+    margin-top: 90px;
+    font-size: 25px;
+}
+
+.social-links {
+    margin: 20px 0;
+}
+
+.social-links h2 {
+    margin-bottom: 70px;
+
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links ul li a {
+    color:  #0047AB;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social-links ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    border-radius: 0 0 8px 8px;
+}
